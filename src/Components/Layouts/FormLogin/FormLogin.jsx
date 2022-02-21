@@ -5,7 +5,7 @@ import { Input } from '../../UI/Input/Input'
 
 
 
-export const ContainerInput = () => {
+export const FormLogin = () => {
   return (
     <div>
         <Input type='text' id='login' text='Username' name='username'/>

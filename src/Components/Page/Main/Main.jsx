@@ -1,6 +1,6 @@
 import React from 'react'
 import { ContainerRouter } from '../../Layouts/ContainerRouter/ContainerRouter'
-import { ContainerInput } from '../../Layouts/ContainerInput/ContainerInput'
+import { FormLogin } from '../../Layouts/FormLogin/FormLogin'
 import { ImageLogin } from '../../UI/ImageLogin/ImageLogin'
 
 
@@ -8,7 +8,7 @@ export const Main = () => {
   return (
     <div>
         <ImageLogin />
-        <ContainerInput/>
+        <FormLogin/>
         <ContainerRouter />
     </div>
   )

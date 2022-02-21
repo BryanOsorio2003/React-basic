@@ -6,8 +6,8 @@ import'./ContainerRouter.css'
 export const ContainerRouter = () => {
   return (
     <div className='Router'>
-        <NavLink to='/'><Button value='<--'/></NavLink>
-        <NavLink to='/Register'><Button value='-->'/></NavLink>
+        <NavLink to='/'><Button value='Login'/></NavLink>
+        <NavLink to='/Register'><Button value='Registrar'/></NavLink>
     </div>
   )
 }
