@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContainerButtons } from '../../Layouts/ContainerButtons/ContainerButtons'
+import { ContainerRouter } from '../../Layouts/ContainerRouter/ContainerRouter'
 import { ContainerInput } from '../../Layouts/ContainerInput/ContainerInput'
 import { ImageLogin } from '../../UI/ImageLogin/ImageLogin'
 
@@ -9,7 +9,7 @@ export const Main = () => {
     <div>
         <ImageLogin />
         <ContainerInput/>
-        <ContainerButtons />
+        <ContainerRouter />
     </div>
   )
 }

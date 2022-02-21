@@ -1,16 +1,15 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import { Button } from '../../UI/Button/Button'
 import { Input } from '../../UI/Input/Input'
 
 
-
-export const ContainerInput = () => {
+export const InputsRegister = () => {
   return (
     <div>
-        <Input type='text' id='login' text='Username' name='username'/>
+        <Input type='text' id='username' text='Username' name='username'/>
+        <Input type='text' id='name' text='Name' name='name'/>
         <Input type='password' id='password' text='Password' name='password'/>
-        <NavLink to='/'><Button value='Login'/></NavLink>
+        <Button value='Register'/>
     </div>
   )
 }
